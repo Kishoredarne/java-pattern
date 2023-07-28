@@ -1,0 +1,24 @@
+How works this pattern
+==========================
+
+Need to decorate object
+========================
+
+My Current object is BasicCar, I need to modified as SuperCar
+
+1) Want to update/decorate my Basic car as SuperCar
+
+Set the object in constructor
+
+create object of SuperCar and pass BasicCar object as reference
+Call super class constructor and pass  BasicCar object
+
+Call the methods
+
+Call SuperCar method, inside call parent class method
+Parent(Super)class method will call BasicCar method
+
+Supercar class method will return Basic car object with existing functionality
+
+Supercar  class will call addPattern() method and decorate BasicCar object
+
